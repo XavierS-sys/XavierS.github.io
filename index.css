@@ -1,0 +1,83 @@
+body {
+  background-color: #1b1b1b; /* dark background */
+  color: white;              /* white text */
+  font-family: Arial, sans-serif; /* font style */
+  margin: 0;                 /* no margin */
+  padding: 0;                /* no padding */
+  text-align: center;        /* center text */
+}
+
+header {
+  background-color: #292929; /* dark header background */
+  padding: 20px;             /* space inside header */
+  font-size: 2rem;           /* big text */
+  font-weight: bold;         /* bold text */
+  color: #1c16d2;            /* blue text */
+  text-shadow: 0 0 6px rgba(28, 22, 210, 0.7); /* glowing text */
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* font style basically font family as it is in the name */
+  font-size: larger; /* increase font size */
+  text-shadow: #1b1b1b;   /* text shadow i dont know if it does anything */
+}
+
+main {
+  padding: 40px;             /* space around main content */
+}
+
+main img {
+  display: block;            /* make image block */
+  margin: 0 auto 30px auto;  /* center image, add space below */
+  max-width: 80%;            /* max width 80% */
+  height: auto;              /* keep shape */
+  border: 2px solid #1c16d2; /* blue border */
+  border-radius: 10px;       /* round corners */
+  box-shadow: 0 0 15px rgba(28, 22, 210, 0.6); /* blue glow */
+}
+
+section {
+  background-color: #2f2f4f; /* purple background */
+  padding: 20px;             /* space inside */
+  border-radius: 10px;       /* round corners */
+  margin: auto;              /* center box */
+  width: 60%;                /* box width */
+  box-shadow: 0 0 12px rgba(28, 22, 210, 0.3); /* soft shadow effect */
+  transition: background-color 0.3s ease; /* smooth color change */
+}
+
+section:hover {
+  background-color: #3c3c7a; /* darker purple on hover making it look better in my opinion */
+}
+
+.button {
+  background-color: #1c16d2; /* blue button */
+  color: white;              /* white text */
+  padding: 10px 25px;        /* button size */
+  text-decoration: none;     /* no underline */
+  border-radius: 6px;        /* round button corners */
+  margin-top: 25px;          /* space above button */
+  display: inline-block;     /* inline block style */
+  font-weight: 600;          /* bold text */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* smooth hover */
+  box-shadow: 0 4px 10px rgba(28, 22, 210, 0.6); /* shadow on box */
+  cursor: pointer;           /* pointer on hover */
+  border: none;              /* no border */
+  user-select: none;         /* can't select text */
+}
+
+.button:hover {
+  background-color: #1511a0; /* darker blue on hover */
+  box-shadow: 0 6px 15px rgba(28, 22, 210, 0.9); /* stronger shadow color if that makes sense */
+}
+
+img {
+  display: block;            /* image as block */
+  margin: 0 auto 20px auto;  /* center image, space below */
+  width: 700px;              /* fixed width */
+  height: auto;              /* keep shape */
+  border: 2px solid #1c16d2; /* blue border */
+  border-radius: 8px;        /* round corners */
+  box-shadow: 0 0 10px rgba(28, 22, 210, 0.5); /* soft shadow like type effect */
+  max-width: 95%;            /* max width 95% for small screens */
+}
